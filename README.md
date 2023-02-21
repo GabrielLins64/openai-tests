@@ -6,10 +6,25 @@ Repository intended to test the OpenAI Algorithms through its API.
 
 <h2>Index</h2>
 
+- [Installing OpenAI API](#installing-openai-api)
 - [How to get an OpenAPI Key](#how-to-get-an-openapi-key)
 
-
 ---
+
+#### Installing OpenAI API
+
+First, create and activate your Python Virtual Environment:
+
+```shell
+python -m venv venv
+. venv/bin/activate
+```
+
+Then, install the openai API:
+
+```shell
+pip install openai
+```
 
 #### How to get an OpenAPI Key
 
